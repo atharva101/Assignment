@@ -1,0 +1,68 @@
+.modal-container {
+  width: 90%;
+  padding: 50px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.modal {
+  position: fixed;
+  z-index: 20;
+  background: #fff;
+  width: 500px;
+  height: auto;
+  /* Center the modal */
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.modal__header {
+  background: #c7c7c7;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal_content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_item {
+  padding: 10px;
+}
+
+.close-button {
+  border: none;
+  background: transparent;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 36px;
+}
+
+.close-button:hover {
+  color: black;
+}
+
+.button {
+  background: green;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: orange;
+}
